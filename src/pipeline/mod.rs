@@ -3,7 +3,6 @@ mod inference_session;
 
 pub use inference_pipeline::{InferencePipeline, InferencePipelineBuilder};
 pub use inference_session::{InferencePipelineSession, InferencePipelineSessionBuilder};
-pub use llm::InferenceSession;
 
 use llm::{LoadError, LoadProgress};
 use thiserror::Error;
